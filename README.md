@@ -15,7 +15,14 @@ utilizzando la procedura adeguata a seconda dell'ambiente con cui si sta lavoran
 - tensorflow
 - keras
 
-I file updatedDataset.csv e CNNFeatureExtraction.csv sono i dataset per la classificazione, la cui generazione è affidata al dataset_manager.ipynb.
+#### OPENCV:
+- cv2
+
+I file notAugmentedDataset.csv, augmentedDataset.csv e CNNFeatureExtraction.csv sono i dataset per la classificazione, la cui generazione è affidata al dataset_manager.ipynb. Altri file csv presenti rappresentano versioni precedenti del dataset i cui dettagli sono reperibili all' interno del codice stesso.
+
+Il notebook openCV.ipynb gestisce la segmentazione delle fotografie presenti nel dataset.
+
+Tutti gli esperimenti di classificazione sono stati effettuati nel notebook Classification.ipynb.
 
 Inoltre, il codice viene rilasciato in formato Jupyter Notebook (.ipynb), quindi è
 necessaria anche l'integrazione con Jupyter per la corretta esecuzione cella per cella.
